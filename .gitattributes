@@ -1,2 +1,6 @@
 sample_reads/Run_2-July0350.fastq filter=lfs diff=lfs merge=lfs -text
 sample_reads/Run_1-July0350.fastq filter=lfs diff=lfs merge=lfs -text
+count filter=lfs diff=lfs merge=lfs -text
+fastqc_rep filter=lfs diff=lfs merge=lfs -text
+kraken2 filter=lfs diff=lfs merge=lfs -text
+sample_reads filter=lfs diff=lfs merge=lfs -text
